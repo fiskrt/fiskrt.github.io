@@ -21,6 +21,10 @@
   line-height: 1.5em;
 }
 
+.anocss {
+  color: inherit;
+  text-decoration: none;
+}
 
 .clearfix::after, .clearfix::before {
   content: " ";
