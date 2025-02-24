@@ -409,11 +409,6 @@
 .bubble3 { animation: rotate 10s infinite linear reverse; }
 .bubble4 { animation: rotate 12s infinite linear; }
 
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-}
-
 @keyframes rotate {
   0% { transform: translate(0, 0) rotate(0deg); }
   25% { transform: translate(20px, -20px) rotate(90deg); }
