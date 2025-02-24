@@ -402,3 +402,28 @@
     width: 70%;
   }
 }
+
+.bubble0 { animation: rotate 8s infinite linear; }
+.bubble1 { animation: rotate 8s infinite linear reverse; }
+.bubble2 { animation: rotate 10s infinite linear; }
+.bubble3 { animation: rotate 10s infinite linear reverse; }
+.bubble4 { animation: rotate 12s infinite linear; }
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes rotate {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(20px, -20px) rotate(90deg); }
+  50% { transform: translate(0, -40px) rotate(180deg); }
+  75% { transform: translate(-20px, -20px) rotate(270deg); }
+  100% { transform: translate(0, 0) rotate(360deg); }
+}
+
+.picture-resume:hover .st0,
+.picture-resume:hover .st1 {
+  fill: #41c2a2;
+  transition: fill 2.3s ease;
+}
